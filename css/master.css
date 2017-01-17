@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #eee;
+}
+
+.navList {
+    margin: 0;
+    padding: 0;
+}
+
+.navList li {
+    list-style: none;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.navList li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.logo img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin: 25%;
+}
+
+.content {
+    margin-left: 200px;
+    height: 100%;
+    min-height: 1000px;
+    width: auto;
+    position: relative;
+    background: #fff;
+    overflow: auto;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background: blue;
+}
+
+.picWrapper {
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.picWrapper img {
+    position: relative;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.infoWrapper {
+    position: relative;
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #ddd;
+}
+
+.name {
+    margin: 0;
+    margin-top: 50px;
+}
+
+.siteDesc {
+    margin: 0;
+    font-size: 15px;
+}
+
+.infoText {
+    display: block;
+    margin: 15px 0;
+}
