@@ -1,13 +1,11 @@
 body {
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #999999;
 }
 
 .flexboxWrapper {
     display: flex;
     flex-flow: row;
-    min-height: 2000px;
+    min-height: 1500px;
 }
 .sidebar {
     background-color: #fff;
@@ -16,9 +14,16 @@ body {
     max-width: 200px;
 }
 .content {
-    background-color: green;
+    background-color: #ccc;
     flex: 5 1 80%;
     order: 2;
+    display: flex;
+    flex-flow: column;
+}
+
+.item {
+    border: 1px solid black;
+    flex: 1;
 }
 
 @media all and (max-width: 640px) {
@@ -50,7 +55,110 @@ body {
     font-weight: bold;
     font-size: 20px;
   }
+  body .info {
+    flex-flow: column;
+  }
+  body .info-pic img {
+    width: 50%;
+  }
+  body .info-pic {
+    justify-content: center;
+  }
 }
+
+.info {
+  display: flex;
+  flex-flow: row;
+}
+.info-pic {
+  /* border: 1px solid blue; */
+  flex: 1;
+  display: flex;
+}
+.info-pic img {
+  width: 100%;
+  border-radius: 50%;
+  align-self: center;
+
+}
+.info-desc {
+  /* border: 1px solid blue; */
+  flex: 2;
+  display: flex;
+}
+.info-desc span {
+  align-self: center;
+  margin: 0 3%;
+}
+
+.portfolio {
+  display: flex;
+  flex-flow: column;
+}
+.portfolio-item {
+  /* border: 1px solid green; */
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: row;
+}
+
+/*
+ * { border: none!important;}
+*/
+
+.portfolio-item .image {
+  /* border: 1px solid green; */
+  flex: 1 1 auto;;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-left: 5%
+}
+.portfolio-item .image img {
+  max-height: 200px;
+  max-width: 350px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.portfolio-item .text {
+  /* border: 1px solid green; */
+  flex: 1 1 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.portfolio-item .text span {
+  margin: 2%;
+}
+
+.skills {
+  display: flex;
+  flex-flow: column;
+}
+
+.header {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+}
+.skill-list {
+  display: flex;
+  flex-flow: row;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  margin: 0 3%;
+}
+
+.skill {
+  flex: 1 1 auto;
+}
+
+.skill img {
+  max-height: 150px;
+}
+
+
 
 
 .navList {
@@ -74,22 +182,4 @@ body {
     width: 50%;
     height: 50%;
     margin: 25%;
-}
-
-.info {
-    order: 1;
-    flex-grow: 1;
-    background-color: red;
-}
-
-.projects {
-    order: 1;
-    flex-grow: 1;
-    background-color: green;
-}
-
-.contact {
-    order: 1;
-    flex-grow: 1;
-    background-color: blue;
 }
