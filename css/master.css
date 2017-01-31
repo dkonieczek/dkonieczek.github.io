@@ -24,6 +24,7 @@ body {
 .item {
     border: 1px solid black;
     flex: 1;
+    flex-basis: auto;
 }
 
 @media all and (max-width: 640px) {
