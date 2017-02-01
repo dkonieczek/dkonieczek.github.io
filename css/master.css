@@ -149,10 +149,11 @@ body {
   flex: 1 1 auto;
   flex-wrap: wrap;
   margin: 0 3%;
+  justify-content: center;
 }
 
 .skill {
-  flex: 1 1 auto;
+  /* flex: 1 1 auto; */
 }
 
 .skill img {
