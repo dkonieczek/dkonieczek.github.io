@@ -22,7 +22,7 @@ body {
 }
 
 .item {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     flex: 1;
     flex-basis: auto;
 }
@@ -71,25 +71,39 @@ body {
   display: flex;
   flex-flow: row;
 }
+
+.info-list {
+  display: flex;
+  flex-flow: row;
+  margin: 0 2%;
+}
+
 .info-pic {
   /* border: 1px solid blue; */
   flex: 1;
   display: flex;
+  justify-content: center;
 }
 .info-pic img {
-  width: 100%;
+  width: 90%;
   border-radius: 50%;
   align-self: center;
 
 }
 .info-desc {
   /* border: 1px solid blue; */
-  flex: 2;
+  flex: 3;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+.info-desc-text {
+  margin: 0 2%;
+}
+
 .info-desc span {
-  align-self: center;
-  margin: 0 3%;
+  padding-top: 10px;
 }
 
 .portfolio {
@@ -97,10 +111,9 @@ body {
   flex-flow: column;
 }
 .portfolio-item {
-  /* border: 1px solid green; */
   flex: 1 1 auto;
   display: flex;
-  flex-flow: row;
+  flex-direction: column;
 }
 
 /*
@@ -108,12 +121,9 @@ body {
 */
 
 .portfolio-item .image {
-  /* border: 1px solid green; */
-  flex: 1 1 auto;;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  padding-left: 5%
+
+
+
 }
 .portfolio-item .image img {
   max-height: 200px;
@@ -123,14 +133,20 @@ body {
 }
 
 .portfolio-item .text {
-  /* border: 1px solid green; */
-  flex: 1 1 auto;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
+  max-width: 400px;
+
+
 }
 .portfolio-item .text span {
   margin: 2%;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 10%;
+  justify-content: space-around;
 }
 
 .skills {
@@ -142,13 +158,15 @@ body {
   flex: 0 1 auto;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+  font-size: 25px;
 }
 .skill-list {
   display: flex;
   flex-flow: row;
   flex: 1 1 auto;
   flex-wrap: wrap;
-  margin: 0 3%;
+  margin: 0 10%;
   justify-content: space-around;
 }
 
@@ -185,3 +203,25 @@ body {
     height: 50%;
     margin: 25%;
 }
+
+
+
+.contact {
+    display: flex;
+    flex-flow: column;
+}
+
+.contact-item {
+
+    display: flex;
+    flex-flow: row;
+    flex: 1 1 auto;
+    margin: 0 10%;
+}
+.contact-img {
+  border-radius: 50%;
+  max-height: 65px;
+  margin: 0 1%;
+}
+
+
