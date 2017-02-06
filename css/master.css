@@ -111,26 +111,18 @@ body {
   flex-flow: column;
 }
 .portfolio-item {
-  flex: 1 1 auto;
-  display: flex;
-  flex-direction: column;
+    flex: 1 1 auto;
+    background: white;
+
+
+    display: flex;
+    justify-content: center;
 }
 
-/*
- * { border: none!important;}
-*/
-
-.portfolio-item .image {
 
 
 
-}
-.portfolio-item .image img {
-  max-height: 200px;
-  max-width: 350px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
+
 
 .portfolio-item .text {
   max-width: 400px;
