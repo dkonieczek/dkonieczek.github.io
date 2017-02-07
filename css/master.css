@@ -155,7 +155,7 @@ body {
 }
 .skill-list {
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
   flex: 1 1 auto;
   flex-wrap: wrap;
   margin: 0 10%;
@@ -163,11 +163,15 @@ body {
 }
 
 .skill {
-  /* flex: 1 1 auto; */
+    flex: 1 1 auto;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 .skill img {
-  max-height: 150px;
+     max-height: 100px;
+    padding: 10px;
 }
 
 
