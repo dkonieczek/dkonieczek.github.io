@@ -75,7 +75,7 @@ body {
 .info-list {
   display: flex;
   flex-flow: row;
-  margin: 0 2%;
+  margin: 0 10%;
 }
 
 .info-pic {
