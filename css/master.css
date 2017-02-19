@@ -14,6 +14,10 @@ body {
   order: 1;
   max-width: 200px;
 }
+.fixed-nav {
+  position: fixed;
+  width: 200px;
+}
 
 .content {
   background-color: #333;
@@ -30,7 +34,15 @@ body {
   flex-basis: auto;
 }
 
-@media all and (max-width: 640px) {
+@media (min-width: 640px) and (max-width: 1024px) { 
+  .fixed-nav {
+    width: 20%;
+  }
+}
+
+
+
+@media (max-width: 640px) {
   .flexboxWrapper {
     flex-direction: column;
   }
