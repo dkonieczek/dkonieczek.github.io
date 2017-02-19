@@ -11,10 +11,12 @@
   <!-- <link rel="stylesheet" href="./css/overlay.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
   <!-- font -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <!-- js -->
-  <script type="text/javascript" src="./js/master.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!-- js -->
+    <script type="text/javascript" src="./js/master.js"></script>
+    <script src="./js/particles.min.js"></script>
 </head>
 
 <body>
@@ -32,6 +34,8 @@
       <div></div>
     </div>
     <div class="content">
+      <div id="particles-js"> </div>
+
       <div class="item info">
         <div class="info-list">
           <div class="info-pic">
@@ -39,7 +43,7 @@
           </div>
           <div class="info-desc">
             <h1 class="info-desc-text">Dennis Konieczek</h1>
-            <h2 class="info-desc-text">Personal Website</h2>
+            <h2 class="info-desc-text">Full Stack Web Developer</h2>
             <span class="info-desc-text">Hey there! My name is Dennis Konieczek, I am a full stack web developer based in Toronto, Canada. I love all things tech, however I’ve focused my career on web development. I am familiar with a wide variety of skills and have worked on multiple exciting projects which you can check out here on my personal website.</span>
           </div>
         </div>
@@ -102,7 +106,7 @@
           </div>
           <div class="portfolio-item">
             <a href="https://github.com/dkonieczek/EatXpress">
-            <img src="./images/eatxpress.jpg" />
+              <img src="./images/eatxpress.jpg" />
             </a>
           </div>
         </div>
@@ -112,32 +116,43 @@
           <h3>Contact</h3>
         </div>
         <div class="contact-item">
-          <span>If you would like to get in contact me with, please send me an <a href="mailto:konieczekdennis@gmail.com">email</a> or find me on any of the following platforms</span>
+          <span>Find me on any of the following platforms</span>
         </div>
         <div class="contact-item">
+
           <a class="contact-img-link" href="https://www.linkedin.com/in/dkonieczek/">
-            <img class="contact-img" src="./images/linkedin.png">
+            <i class="fa fa-linkedin contact-img" aria-hidden="true"></i>
           </a>
+
           <a class="contact-img-link" href="https://github.com/dkonieczek">
-            <img class="contact-img" src="./images/github.png">
+            <i class="fa fa-github contact-img" aria-hidden="true"></i>
           </a>
-          <a class="contact-img-link" href="http://codepen.io/dkonieczek">
-            <img class="contact-img" src="./images/codepen.png">
+
+          <a class="contact-img-link" href="https://codepen.io/dkonieczek">
+            <i class="fa fa-codepen contact-img" aria-hidden="true"></i>
           </a>
-          <a class="contact-img-link" href="http://twitter.com/dkonieczek">
-            <img class="contact-img" src="./images/twitter.png">
+
+          <a class="contact-img-link" href="https://twitter.com/dkonieczek">
+            <i class="fa fa-twitter contact-img" aria-hidden="true"></i>
           </a>
-          <a class="contact-img-link" href="http://codepen.io/dkonieczek">
-            <img class="contact-img" src="./images/gmail.png">
-            <!-- <i class="fa fa-envelope-o contact-img" aria-hidden="true"></i> -->
+
+          <a class="contact-img-link" href="mailto:konieczekdennis@gmail.com">
+            <i class="fa fa-envelope-o contact-img" aria-hidden="true"></i>
           </a>
-          <a class="contact-img-link" href="http://codepen.io/dkonieczek">
+
+          <a class="contact-img-link" href="https://www.instagram.com/dkonieczek/">
             <i class="fa fa-instagram contact-img" aria-hidden="true"></i>
           </a>
+
         </div>
       </div>
+      <footer>
+        <p>Made from scratch with an emphasis on using Flexbox </p>
+      </footer>
     </div>
+
   </div>
+
 </body>
 
 </html>

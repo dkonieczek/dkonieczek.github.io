@@ -16,11 +16,12 @@ body {
 }
 
 .content {
-  background-color: #ccc;
+  background-color: #333;
   flex: 5 1 80%;
   order: 2;
   display: flex;
   flex-flow: column;
+  color: #fff;
 }
 
 .item {
@@ -77,6 +78,8 @@ body {
 .info {
   display: flex;
   flex-flow: row;
+  z-index: 1;
+  height: 100vh;
 }
 
 .info-list {
@@ -96,6 +99,7 @@ body {
   width: 90%;
   border-radius: 50%;
   align-self: center;
+  border: thick solid #434343;
 }
 
 .info-desc {
@@ -117,6 +121,9 @@ body {
 .skills {
   display: flex;
   flex-flow: column;
+  z-index: 1;
+      height: 50vh;
+    margin-bottom: 10vh;
 }
 
 .header {
@@ -174,6 +181,9 @@ body {
 .contact {
   display: flex;
   flex-flow: column;
+  z-index: 1;
+      height: 25vh;
+    margin-bottom: 10vh;
 }
 
 .contact-item {
@@ -187,15 +197,19 @@ body {
   border-radius: 50%;
   max-height: 65px;
    font-size: 65px !important;
+   color: #20a06c;
 }
 
-.contact-item contact-img-link {
+.contact-img-link {
     margin: 0 1%;
 }
 
 .portfolio {
   display: flex;
   flex-flow: column;
+  z-index: 1;
+  height: 50vh;
+  margin-bottom: 10vh;
 }
 
 .portfolio-list {
@@ -216,5 +230,16 @@ body {
 
 .portfolio-item img {
   max-height: 150px;
-  padding: 5px 10px;
+  margin: 5px 10px;
+  border: 5px solid #434343;
+  border-radius: 15px;
+}
+
+#particles-js canvas {
+  position: fixed;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
 }
