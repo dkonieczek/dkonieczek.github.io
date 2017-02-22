@@ -4,7 +4,8 @@ $(document).ready(function () {
     });
 });
 
-$(document).on('click', 'a', function(event){
+
+$(document).on('click', '.navList a', function(event){
     event.preventDefault();
 
     $('html, body').animate({
