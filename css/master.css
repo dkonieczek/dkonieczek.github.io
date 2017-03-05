@@ -22,12 +22,16 @@ body {
 }
 
 .content {
-  background-color: #333;
+  background: linear-gradient(165deg, #20a06c ,#333 100vh );
+  /* background-color: #333;
+   background: linear-gradient( #333, #20a06c 150vh); 
+  background: linear-gradient(160deg, #20a06c, #333  ); */
   flex: 5 1 80%;
   order: 2;
   display: flex;
   flex-flow: column;
   color: #fff;
+
 }
 
 .item {
@@ -92,8 +96,9 @@ body {
 .info {
   display: flex;
   flex-flow: row;
-  z-index: 1;
+  z-index: 2;
   height: 100vh;
+  /*background: linear-gradient(170deg, #20a06c , #333 100vh );*/
 }
 
 .info-list {
@@ -126,6 +131,7 @@ body {
 
 .info-desc-text {
   margin: 0 2%;
+  text-shadow: 2px 2px 1px #333;
 }
 
 .info-desc span {
@@ -135,17 +141,19 @@ body {
 .skills {
   display: flex;
   flex-flow: column;
-  z-index: 1;
+  z-index: 2;
   height: 100vh;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+  /* background: linear-gradient( #333, #20a06c  ); */
 }
 
 .header {
   flex: 0 1 auto;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   font-size: 25px;
+  text-shadow: 2px 2px 1px #333;
 }
 
 .skill-list {
@@ -185,6 +193,27 @@ body {
   color: #000;
 }
 
+.socialList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: calc(100vh - 480px) 50px 0 50px;
+  padding: 0;
+}
+
+.socialList li {
+  float: left;
+  font-size: 22px;
+  list-style: none;
+  margin: 5px;
+    max-width: 16px;
+  
+}
+.socialList li a {
+  color: #000;
+}
+
 .logo img {
   position: relative;
   width: 50%;
@@ -196,7 +225,9 @@ body {
   display: flex;
   flex-flow: column;
   z-index: 1;
-  height: 100vh;
+  height: 50vh;
+  background: linear-gradient(-10deg, #f36e61 -30% , #333 60%);
+  
 }
 
 .contact-item {
@@ -205,6 +236,7 @@ body {
   flex: 0 1 auto;
   margin: 0 10%;
   margin-bottom: 25px;
+  text-shadow: 2px 2px 1px #333;
 }
 
 .contact-img {
@@ -218,12 +250,17 @@ body {
     margin: 0 1%;
 }
 
+.contact-grow {
+  flex-grow: 1;
+}
+
 .portfolio {
   display: flex;
   flex-flow: column;
-  z-index: 1;
+  z-index: 2;
   height: 100vh;
-  margin-bottom: 10vh;
+  padding-bottom: 10vh;
+  /* background: linear-gradient(#20a06c, #333 ); */
 }
 
 .portfolio-list {
@@ -254,6 +291,13 @@ body {
 }
 
 footer {
+  /*background: #f36e61;*/
   text-align: center;
   font-size: 12px;
+  margin-bottom: 0 !important;
+  text-shadow: none !important;
+}
+
+footer p {
+  flex: 1;
 }
