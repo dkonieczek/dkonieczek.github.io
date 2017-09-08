@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+$header-verticle-padding: 20px;
+$header-horizontal-padding: 5%;
+
+.header-wrapper {
+  border-bottom: 1px solid #ccc;
+  box-shadow: 2px 2px 5px 0 #ccc;
+  padding: $header-verticle-padding $header-horizontal-padding;
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    h1 {
+      margin: 0;
+      flex-grow: 10;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    .nav-item {
+      height: 100%;
+      font-size: 20px;
+      flex-grow: 1;
+      margin: 0 5px;
+    }
+  }
+}
+
+$page-verticle-padding: 20px;
+$page-horizontal-padding: 10%;
+
+.page-wrapper {
+  padding: $page-verticle-padding $page-horizontal-padding;
+}
