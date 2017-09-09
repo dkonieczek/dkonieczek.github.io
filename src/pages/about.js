@@ -3,8 +3,7 @@ import Link from 'gatsby-link';
 
 const AboutPage = () => (
   <div className="about">
-    <h2>Full Stack Web Developer</h2>
-    <p>
+    <p className="bio">
       Hey there! My name is Dennis Konieczek, I am a full stack web developer
       based in Toronto, Canada. I love all things tech, however I’ve focused my
       career on web development. I am familiar with a wide variety of skills and

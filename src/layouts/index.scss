@@ -8,8 +8,8 @@ $header-verticle-padding: 20px;
 $header-horizontal-padding: 5%;
 
 .header-wrapper {
-  border-bottom: 1px solid #ccc;
-  box-shadow: 2px 2px 5px 0 #ccc;
+  //border-bottom: 1px solid #ccc;
+  //box-shadow: 2px 2px 5px 0 #ccc;
   padding: $header-verticle-padding $header-horizontal-padding;
   .header {
     display: flex;
@@ -33,7 +33,7 @@ $header-horizontal-padding: 5%;
   }
 }
 
-$page-verticle-padding: 20px;
+$page-verticle-padding: 5vw;
 $page-horizontal-padding: 10%;
 
 .page-wrapper {
@@ -69,7 +69,10 @@ $page-horizontal-padding: 10%;
 
 .about {
   $color_1: #aaa;
-
+  .bio {
+    line-height: 2;
+    text-align: justify;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -125,15 +128,6 @@ $page-horizontal-padding: 10%;
         font-size: 12px;
         font-style: italic;
         color: $color_1;
-      }
-    }
-    &:first-child {
-      p {
-        &:nth-child(1) {
-          &:after {
-            background: #cfc;
-          }
-        }
       }
     }
   }
