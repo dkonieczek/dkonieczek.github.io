@@ -1,13 +1,19 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  <div className="home">
+    <h1>Welcome to my home</h1>
+    <img
+      className="picture"
+      src="https://avatars0.githubusercontent.com/u/13966707?v=4&s=460"
+      alt="Dennis Konieczek"
+    />
+    <div className="signature">
+      <p>Full Stack Web developer</p>
+      <p>Toronto, Canada</p>
+    </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

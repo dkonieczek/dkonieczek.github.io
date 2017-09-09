@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
 $header-verticle-padding: 20px;
@@ -37,4 +38,31 @@ $page-horizontal-padding: 10%;
 
 .page-wrapper {
   padding: $page-verticle-padding $page-horizontal-padding;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #666;
+  text-align: center;
+
+  .picture {
+    border-radius: 50%;
+    border: 2px solid #333;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .signature {
+    font-size: 20px;
+    color: #aaa;
+    p {
+      margin: 0;
+    }
+    p:first-child {
+      margin-top: 40px;
+      margin-bottom: 5px;
+    }
+  }
 }
