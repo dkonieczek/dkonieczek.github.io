@@ -147,6 +147,7 @@ $page-horizontal-padding: 10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     .skill {
       flex-basis: 33.3%;
       padding: 20px 60px;
@@ -174,6 +175,50 @@ $page-horizontal-padding: 10%;
     .date {
       width: 121px;
       min-width: 121px;
+    }
+  }
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  .item {
+    margin-bottom: 30px;
+    .content {
+      display: flex;
+      flex-direction: row;
+      h3 {
+        flex-basis: 100%;
+      }
+      img {
+        align-self: center;
+        margin: 20px;
+        max-width: 300px;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+      }
+      .desc {
+        margin: 20px;
+        color: #333;
+        p {
+          margin: 0;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .portfolio {
+    .item {
+      .content {
+        flex-direction: column;
+        img {
+          align-self: flex-start;
+          max-width: 100%;
+        }
+      }
     }
   }
 }

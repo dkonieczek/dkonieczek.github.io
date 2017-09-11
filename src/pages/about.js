@@ -1,6 +1,12 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import frontend from '../assets/frontend.png';
+import backend from '../assets/backend.png';
+import tools from '../assets/tools.png';
+import creative from '../assets/creative.png';
+import design from '../assets/design.png';
+
 const AboutPage = () => (
   <div className="about">
     <h2>About Me</h2>
@@ -56,51 +62,35 @@ const AboutPage = () => (
     <h3>Skills</h3>
     <div className="skills">
       <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
-        <p className="heading">Design</p>
+        <img src={frontend} />
+        <p className="heading">Front End</p>
         <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
+          HTML5, CSS grid, Flexbox, SASS, Javascript (ES5/ES6), jQuery, React.js
         </p>
       </div>
       <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
-        <p className="heading">Design</p>
+        <img src={backend} />
+        <p className="heading">Back End</p>
+        <p className="desc">Node, Express, MongoDB, PHP</p>
+      </div>
+      <div className="skill">
+        <img src={tools} />
+        <p className="heading">Tools</p>
+        <p className="desc">Npm, Git, Webpack</p>
+      </div>
+      <div className="skill">
+        <img src={creative} />
+        <p className="heading">Creative Direction</p>
         <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
+          Agile/Scrum methodologies, effective communication
         </p>
       </div>
       <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
+        <img src={design} />
         <p className="heading">Design</p>
         <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
-        </p>
-      </div>
-      <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
-        <p className="heading">Design</p>
-        <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
-        </p>
-      </div>
-      <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
-        <p className="heading">Design</p>
-        <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
-        </p>
-      </div>
-      <div className="skill">
-        <img src="http://via.placeholder.com/100x100" />
-        <p className="heading">Design</p>
-        <p className="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus
-          tincidunt laoreet.
+          Responsive design, Accessibility, W3C Standards, Photoshop,
+          Illustrator
         </p>
       </div>
     </div>
