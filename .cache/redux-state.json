@@ -328,7 +328,7 @@
       "resolve": "/Users/dennis/Github/dkonieczek.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "af83ce5c3fd62c54b9fa8be0b215465b",
+      "version": "962314bf1a1b11ddb698038e428eb1d0",
       "pluginOptions": {
         "plugins": []
       },
@@ -378,7 +378,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0bfba974f577d560666b68d327118492",
+        "contentDigest": "48c1057cb1b918f3b4d611e5498decc8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -387,14 +387,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "pathPrefix": "/dkonieczek.github.io/public",
+      "pathPrefix": "/dkonieczek.com/public",
       "polyfill": true,
-      "buildTime": "2017-09-16T22:23:14.091Z",
+      "buildTime": "2017-09-16T22:44:53.893Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3ad6adcc989a589722194d0dc8f583f3",
+        "contentDigest": "5608be7c610446e1f410c4488d9ea752",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -406,7 +406,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1505600596385,
+      "updatedAt": 1505601896748,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -416,7 +416,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b670ba7fa2ef5edf940c0d1627ea5c08",
+        "contentDigest": "63e52fb2ac860e0bdfcf5f543a1e3ed3",
         "owner": "internal-data-bridge"
       }
     },
@@ -427,7 +427,7 @@
       "layout": "index",
       "jsonName": "about.json",
       "internalComponentName": "ComponentAbout",
-      "updatedAt": 1505600596386,
+      "updatedAt": 1505601896750,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -437,7 +437,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0d42c2ad409845268bcfc32152dfc323",
+        "contentDigest": "5a4f05667d78cf5362293988ceee647e",
         "owner": "internal-data-bridge"
       }
     },
@@ -448,7 +448,7 @@
       "layout": "index",
       "jsonName": "contact.json",
       "internalComponentName": "ComponentContact",
-      "updatedAt": 1505600596387,
+      "updatedAt": 1505601896751,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -458,7 +458,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5e253c02d32c02751a59e409b6eff843",
+        "contentDigest": "4cfaac76c3e093088ef050a68f9a3296",
         "owner": "internal-data-bridge"
       }
     },
@@ -469,7 +469,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1505600596388,
+      "updatedAt": 1505601896752,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -479,7 +479,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f4ca12adbbbafc6a6c5b561ad6a952a5",
+        "contentDigest": "718a5b9440281fcaad6aab4a7c595e27",
         "owner": "internal-data-bridge"
       }
     },
@@ -490,7 +490,7 @@
       "layout": "index",
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
-      "updatedAt": 1505600596390,
+      "updatedAt": 1505601896754,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -500,7 +500,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a2b99c3a8f8fa6795dbe25c94860cd19",
+        "contentDigest": "54fc4c3bef386ed9a9f83c046c237710",
         "owner": "internal-data-bridge"
       }
     },
@@ -511,7 +511,7 @@
       "layout": "index",
       "jsonName": "portfolio.json",
       "internalComponentName": "ComponentPortfolio",
-      "updatedAt": 1505600596391,
+      "updatedAt": 1505601896755,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -521,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c942dd58045e25d54f37f131119518ba",
+        "contentDigest": "485d2f49ef6bd18b71f1b07525839d9b",
         "owner": "internal-data-bridge"
       }
     },
@@ -532,7 +532,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1505600596396,
+      "updatedAt": 1505601896759,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -542,14 +542,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "292f8bfa2acee4f78fadc6f71150df89",
+        "contentDigest": "d3a6d1a36e186cd77ec559cfb21f33c4",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "384d5251f5ca591fa7e3a01abac487df"
+    "PLUGINS_HASH": "b54d1256fae7100e8b0a0b23f6d629ab"
   },
   "componentDataDependencies": {
     "nodes": {},
