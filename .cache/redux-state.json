@@ -1,0 +1,565 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "component": "/Users/dennis/Github/dkonieczek.github.io/.cache/dev-404-page.js",
+      "path": "/dev-404-page/",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "updatedAt": 1505574970806,
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f2bbd05e674d8ed47535443b5b6b0c51",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d0d9c39afe07dbfc5dc056d1c224f8ac",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cc2bf6feef19256036f84e796bbaea8e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ef54fc6f913c104395716f8cf77053ad",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1b3046fc67f2c1ac499af6f5b96cf4b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4caeb6bd847f8a6d4f1df3a2fcac4725",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "f7ee8d16b78805a52e8cee0879935d13",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d6b469ce6f73fa22160fead3f39e419e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c980617fc1d58e37a108df408eb219de",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/Users/dennis/Github/dkonieczek.github.io",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "e149e10652d110f22e74953cf07cf90c",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "main": "n/a",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.17"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.15"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.12"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "prettier",
+            "version": "^1.6.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "da17e96ebdce7c5ca26665e36b2455fd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Default Starter"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-09-16T15:16:01.640Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9263c9f9f71cd2245ab5b07fa0a8c4a2",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "path": "/404/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "updatedAt": 1505574970836,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8a3f6008f03d98bf8dd309fd43539782",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "path": "/about/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "updatedAt": 1505574970838,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "15cb09b3db1df40a37eaafa67989662c",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "path": "/contact/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "layout": "index",
+      "jsonName": "contact.json",
+      "internalComponentName": "ComponentContact",
+      "updatedAt": 1505574970840,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "557e8040cc9e932c37b1878a827fa619",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "path": "/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1505574970852,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a3f4f1dbbef3beaeafc98cf57cbca03b",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "path": "/page-2/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "updatedAt": 1505574970854,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8d1f36b0a1bf2bacbdad4e4627ef0db9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /portfolio/": {
+      "path": "/portfolio/",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/portfolio.js",
+      "componentChunkName": "component---src-pages-portfolio-js",
+      "layout": "index",
+      "jsonName": "portfolio.json",
+      "internalComponentName": "ComponentPortfolio",
+      "updatedAt": 1505574970855,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/portfolio.js",
+      "id": "SitePage /portfolio/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b42125ae94c7532d04393864a2cf6aaa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "path": "/404.html",
+      "component": "/Users/dennis/Github/dkonieczek.github.io/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "updatedAt": 1505574970876,
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0de4dcd0443a856ffb9155ee98bcc669",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "cc14a7d86dededcf5f59db4188a946bf"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

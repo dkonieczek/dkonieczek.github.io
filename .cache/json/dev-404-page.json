@@ -1,0 +1,45 @@
+{
+    "data": {
+        "allSitePage": {
+            "totalCount": 7,
+            "edges": [
+                {
+                    "node": {
+                        "path": "/404/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/about/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/contact/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/page-2/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/portfolio/"
+                    }
+                },
+                {
+                    "node": {
+                        "path": "/404.html"
+                    }
+                }
+            ]
+        }
+    },
+    "pathContext": {}
+}
