@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/dennis/Github/dkonieczek.github.io/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1505574970806,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/dennis/Github/dkonieczek.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2bbd05e674d8ed47535443b5b6b0c51",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -226,7 +216,9 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -279,7 +271,10 @@
           "sass",
           "scss"
         ],
-        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -333,20 +328,20 @@
       "resolve": "/Users/dennis/Github/dkonieczek.github.io",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "e149e10652d110f22e74953cf07cf90c",
+      "version": "a9a7bc2ce1bc876393447037e1e5bb65",
       "pluginOptions": {
         "plugins": []
       },
       "pluginFilepath": "/Users/dennis/Github/dkonieczek.github.io",
       "packageJson": {
-        "name": "gatsby-starter-default",
-        "description": "Gatsby default starter",
+        "name": "dkonieczek.github.io",
+        "description": "Dennis Konieczek Personal Website",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": "Dennis Konieczek <konieczekdennis@gmail.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -368,6 +363,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.0.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.6.1"
           }
@@ -379,7 +378,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "da17e96ebdce7c5ca26665e36b2455fd",
+        "contentDigest": "b163a2c5f7befdd64ad5556e24c1a3fd",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -388,16 +387,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
-      "pathPrefix": "",
+      "pathPrefix": "/dkonieczek.github.io",
       "polyfill": true,
-      "buildTime": "2017-09-16T15:16:01.640Z",
+      "buildTime": "2017-09-16T22:14:02.424Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9263c9f9f71cd2245ab5b07fa0a8c4a2",
+        "contentDigest": "728f8aa2c35225292625a84c24d3d8aa",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -409,7 +406,7 @@
       "layout": "index",
       "jsonName": "404.json",
       "internalComponentName": "Component404",
-      "updatedAt": 1505574970836,
+      "updatedAt": 1505600045254,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -419,7 +416,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8a3f6008f03d98bf8dd309fd43539782",
+        "contentDigest": "70830e3d8515e984554e15f33f935e74",
         "owner": "internal-data-bridge"
       }
     },
@@ -430,7 +427,7 @@
       "layout": "index",
       "jsonName": "about.json",
       "internalComponentName": "ComponentAbout",
-      "updatedAt": 1505574970838,
+      "updatedAt": 1505600045257,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -440,7 +437,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "15cb09b3db1df40a37eaafa67989662c",
+        "contentDigest": "b62eab309778e12d94cf87e6f5c3a7d2",
         "owner": "internal-data-bridge"
       }
     },
@@ -451,7 +448,7 @@
       "layout": "index",
       "jsonName": "contact.json",
       "internalComponentName": "ComponentContact",
-      "updatedAt": 1505574970840,
+      "updatedAt": 1505600045258,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -461,7 +458,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "557e8040cc9e932c37b1878a827fa619",
+        "contentDigest": "35b41f1c617a81187dcbba378cca881b",
         "owner": "internal-data-bridge"
       }
     },
@@ -472,7 +469,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1505574970852,
+      "updatedAt": 1505600045259,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -482,7 +479,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a3f4f1dbbef3beaeafc98cf57cbca03b",
+        "contentDigest": "96bb57aee2eb12366e9c960dfdd929c5",
         "owner": "internal-data-bridge"
       }
     },
@@ -493,7 +490,7 @@
       "layout": "index",
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
-      "updatedAt": 1505574970854,
+      "updatedAt": 1505600045261,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -503,7 +500,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8d1f36b0a1bf2bacbdad4e4627ef0db9",
+        "contentDigest": "1f3689eb85ea1fe3a4c817b5809aa690",
         "owner": "internal-data-bridge"
       }
     },
@@ -514,7 +511,7 @@
       "layout": "index",
       "jsonName": "portfolio.json",
       "internalComponentName": "ComponentPortfolio",
-      "updatedAt": 1505574970855,
+      "updatedAt": 1505600045262,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -524,7 +521,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b42125ae94c7532d04393864a2cf6aaa",
+        "contentDigest": "915a16f1e25a45b1ea4503944a99b441",
         "owner": "internal-data-bridge"
       }
     },
@@ -535,7 +532,7 @@
       "layout": "index",
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
-      "updatedAt": 1505574970876,
+      "updatedAt": 1505600045266,
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
@@ -545,21 +542,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0de4dcd0443a856ffb9155ee98bcc669",
+        "contentDigest": "0c27f95b2353830fc05d0d184ec9d67a",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "cc14a7d86dededcf5f59db4188a946bf"
+    "PLUGINS_HASH": "0a2adc9168a02694e59be1fc5cbd1a77"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

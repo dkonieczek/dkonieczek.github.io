@@ -3,7 +3,6 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/dennis/Github/dkonieczek.github.io/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/dennis/Github/dkonieczek.github.io/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/dennis/Github/dkonieczek.github.io/src/pages/about.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/dennis/Github/dkonieczek.github.io/src/pages/contact.js")),
@@ -13,8 +12,6 @@ exports.components = {
 }
 
 exports.json = {
-  "layout-index.json": require("/Users/dennis/Github/dkonieczek.github.io/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/dennis/Github/dkonieczek.github.io/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/dennis/Github/dkonieczek.github.io/.cache/json/layout-index.json"),
   "404.json": require("/Users/dennis/Github/dkonieczek.github.io/.cache/json/404.json"),
   "layout-index.json": require("/Users/dennis/Github/dkonieczek.github.io/.cache/json/layout-index.json"),
