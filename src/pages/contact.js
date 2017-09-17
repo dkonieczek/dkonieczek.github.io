@@ -51,11 +51,7 @@ const ContactPage = () => (
         </a>
       </div>
       <div className="social-item">
-        <a
-          href="mailto:konieczekdennis@gmail.com?Subject=I%20have%20a%20question%21&Body=Hey%20Dennis%2C%0A%0AI%27m%20reaching%20out%20to%20you%20after%20finding%20your%20email%20on%20dkonieczek.com%0A%0AMy%20question%20is%3A"
-          target="_blank"
-          rel="noopener"
-        >
+        <a href="mailto:konieczekdennis@gmail.com?Subject=I%20have%20a%20question%21&Body=Hey%20Dennis%2C%0A%0AI%27m%20reaching%20out%20to%20you%20after%20finding%20your%20email%20on%20dkonieczek.com%0A%0AMy%20question%20is%3A">
           <img src={email} alt="email" />
         </a>
       </div>
