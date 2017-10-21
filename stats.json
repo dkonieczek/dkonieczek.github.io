@@ -16,10 +16,6 @@
       "component---src-layouts-index-js-723bf08bb008f65dfc75.js",
       "component---src-layouts-index-js-723bf08bb008f65dfc75.js.map"
     ],
-    "path---page-2": [
-      "path---page-2-a0e39f21c11f6a62c5ab.js",
-      "path---page-2-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
@@ -44,13 +40,9 @@
       "path---portfolio-a0e39f21c11f6a62c5ab.js",
       "path---portfolio-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js",
-      "component---src-pages-page-2-js-075954cd9c4544c7dcd8.js.map"
-    ],
     "app": [
-      "app-f28bcbf90266a0c651a2.js",
-      "app-f28bcbf90266a0c651a2.js.map"
+      "app-d40ec783d56a3bbc75a2.js",
+      "app-d40ec783d56a3bbc75a2.js.map"
     ],
     "component---src-pages-portfolio-js": [
       "component---src-pages-portfolio-js-dbb788e1a2d17efc5285.js",
