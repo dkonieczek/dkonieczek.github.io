@@ -19,6 +19,7 @@
       "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deplou2": "gatsby build && gh-pages -d public --branch master",
     "deploy-gh": "gatsby build && cp -R ./public/* . && rm -rf ./public && git add -A && git commit -m 'deploy' && git push -u origin master"
   },
   "repository": {
