@@ -8,7 +8,7 @@ const IndexPage = () => (
     <h1>Welcome to my home</h1>
     <img
       className="picture"
-      src="https://avatars0.githubusercontent.com/u/13966707?v=4&s=460"
+      src={profile}
       alt="Dennis Konieczek"
     />
     <div className="signature">
