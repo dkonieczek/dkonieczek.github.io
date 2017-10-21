@@ -1,6 +1,8 @@
 import React from 'react';
 import Link from 'gatsby-link';
 
+import profile from '../assets/profile.jpg';
+
 const IndexPage = () => (
   <div className="home">
     <h1>Welcome to my home</h1>
