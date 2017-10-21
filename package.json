@@ -19,7 +19,7 @@
     "develop": "gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gatsby build && touch CNAME && echo 'dkonieczek.com' > CNAME && gh-pages -d public --branch master"
+    "deploy": "gatsby build && touch ./build/CNAME && echo 'dkonieczek.com' > ./build/CNAME && gh-pages -d public --branch master"
   },
   "repository": {
     "type": "git",
